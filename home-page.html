@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chemical</title>
+
+    <!-- link -->
+    <link rel="stylesheet" href="./css/lib/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/lib/animate.min.css" />
+    <link rel="stylesheet" href="./css/lib/all.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/lib/swiper-bundle.min.css" />
+
+    <!-- scripts -->
+    <script src="./js/lib/jquery.min.js"></script>
+    <script src="./js/lib/popper.min.js"></script>
+    <script src="./js/lib/bootstrap.min.js"></script>
+    <script src="./js/lib/wow.min.js"></script>
+    <script src="./js/lib/all.min.js"></script>
+    <script src="./js/lib/daisy.js"></script>
+    <script src="./js/scripts.js"></script>
+    <script src="./js/lib/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./js/lib/gmaps.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfbmrpKe7u_qaEmNPh6MyiBLEHBWrA7YA&callback=initMap"
+    type="text/javascript"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light ch-navbar">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse ch-navbar-collapse"
+          id="navbarText"
+        >
+          <ul class="navbar-nav ch-navbar-nav m-auto pr-0">
+            <li class="nav-item active">
+              <a class="nav-link ch-nav-link pr-5 pl-5" href="#">صفحه اصلی</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ch-nav-link pr-5 pl-5" href="#">محصولات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ch-nav-link pr-5 pl-5" href="#">خدمات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ch-nav-link pr-5 pl-5" href="#">مقالات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ch-nav-link pr-5 pl-5" href="#">درباره ما</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div class="container-fluid ch-container">
+        <div class="row ch-row">
+          <div class="col-12 pr-0 pl-0 che-column">
+            <div id="chemical-anim"></div>
+            <div class="ch-content-first-section">
+              <div class="ch-header-text">
+                <h1>بسپارشیمی</h1>
+              </div>
+              <div class="ch-content-text">
+                <p>
+                  فروشگاه محصولات شیمیایی در زمینه ی محصولات شیمیایی در حال
+                  فعالیت می باشد.
+                </p>
+              </div>
+              <div class="ch-button-see-item">
+                <button>محصولات</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container ch-container-box">
+        <div class="row pt-5">
+          <div class="col-12 ch-title-box">
+            <h2>خدمات ما</h2>
+            <p>خدماتی که ارائه می دهیم</p>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="ch-column-box">
+              <div class="ch-image-box">
+                <img src="./images/customer-support.png" alt="" />
+              </div>
+              <div class="ch-header-box">
+                <h3>پشتیبانی 24 ساعته</h3>
+              </div>
+              <div class="ch-content-box">
+                <p>
+                  بسپارشیمی این اطمینان را به کاربران خود می دهد تا هر زمان نیاز
+                  به راهنمایی و ارتباط داشتند بتوانند با پشتیبان ها ارتباط
+                  برقرار کنند
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="ch-column-box">
+              <div class="ch-image-box">
+                <img src="./images/customer-service.png" alt="" />
+              </div>
+              <div class="ch-header-box">
+                <h3>پیگیری سفارشات</h3>
+              </div>
+              <div class="ch-content-box">
+                <p>
+                  کارشناسان بسپارشیمی پس از ارسال درخواست شما در اسرع وقت با شما
+                  تماس خواهند گرفت و درخواست شما را پیگیری می نمایند
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="ch-column-box">
+              <div class="ch-image-box">
+                <img src="./images/order.png" alt="" />
+              </div>
+              <div class="ch-header-box">
+                <h3>ضمانت کیفیت</h3>
+              </div>
+              <div class="ch-content-box">
+                <p>
+                  بسپار شیمی کیفیت محصوات خود را ضمانت میکند و به شما اطمینان
+                  میدهد که محصولات در بهترین کیفیت قرار دارند
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid ch-container-box ch-container-item">
+        <div class="row pt-5 pb-4">
+          <div class="col-12 ch-title-box">
+            <h2>محصولات ما</h2>
+            <p>محصولاتی که ارائه می دهیم</p>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div class="col-12">
+            <div class="swiper-container">
+              <div class="ch-list-item swiper-wrapper">
+                <div class="ch-show-item swiper-slide">
+                  <a class="ch-link-item" href="">
+                    <div class="ch-image-item">
+                      <img src="./images/3.png" alt="" />
+                    </div>
+                    <div class="ch-content-item">
+                      <p>
+                        ملامین پلی فسفات: یکی از ترکیبات مورد استفاده در
+                        تاخیراندازهای شعله می باشد. در پلیمرها، رنگ ها و پوشش ها
+                        کاربرد دارد و از واکنش اسید فسفریک با ملامین تهیه می
+                        شود.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="ch-show-item swiper-slide">
+                  <a class="ch-link-item" href="">
+                    <div class="ch-image-item">
+                      <img src="./images/2.png" alt="" />
+                    </div>
+                    <div class="ch-content-item">
+                      <p>
+                        ملامین پلی فسفات: یکی از ترکیبات مورد استفاده در
+                        تاخیراندازهای شعله می باشد. در پلیمرها، رنگ ها و پوشش ها
+                        کاربرد دارد و از واکنش اسید فسفریک با ملامین تهیه می
+                        شود.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="ch-show-item swiper-slide">
+                  <a class="ch-link-item" href="">
+                    <div class="ch-image-item">
+                      <img src="./images/1.jpg" alt="" />
+                    </div>
+                    <div class="ch-content-item">
+                      <p>
+                        ملامین پلی فسفات: یکی از ترکیبات مورد استفاده در
+                        تاخیراندازهای شعله می باشد. در پلیمرها، رنگ ها و پوشش ها
+                        کاربرد دارد و از واکنش اسید فسفریک با ملامین تهیه می
+                        شود.
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container ch-container-box ch-container-blog">
+        <div class="row pt-5">
+          <div class="col-12 ch-title-box">
+            <h2>مقالات</h2>
+            <p>مقالات مرتبط</p>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5">
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="ch-column-blog">
+              <div class="ch-image-blog">
+                <img src="./images/4.jpg" alt="" />
+              </div>
+              <div class="ch-header-blog">
+                <h3>پشتیبانی 24 ساعته</h3>
+              </div>
+              <div class="ch-content-blog">
+                <p>
+                  بسپارشیمی این اطمینان را به کاربران خود می دهد تا هر زمان نیاز
+                  به راهنمایی و ارتباط داشتند بتوانند با پشتیبان ها ارتباط
+                  برقرار کنند
+                </p>
+              </div>
+              <div class="ch-date-blog">
+                <p>1399/8/7</p>
+                <a class="ch-link-more-blog" href="#">ادامه مطلب</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4">
+            <div class="ch-column-blog">
+              <div class="ch-image-blog">
+                <img src="./images/5.jpg" alt="" />
+              </div>
+              <div class="ch-header-blog">
+                <h3>پشتیبانی 24 ساعته</h3>
+              </div>
+              <div class="ch-content-blog">
+                <p>
+                  بسپارشیمی این اطمینان را به کاربران خود می دهد تا هر زمان نیاز
+                  به راهنمایی و ارتباط داشتند بتوانند با پشتیبان ها ارتباط
+                  برقرار کنند
+                </p>
+              </div>
+              <div class="ch-date-blog">
+                <p>1399/8/7</p>
+                <a class="ch-link-more-blog" href="#">ادامه مطلب</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-4 pt-3 pt-lg-0">
+            <div class="ch-column-blog">
+              <div class="ch-image-blog">
+                <img src="./images/6.jpg" alt="" />
+              </div>
+              <div class="ch-header-blog">
+                <h3>پشتیبانی 24 ساعته</h3>
+              </div>
+              <div class="ch-content-blog">
+                <p>
+                  بسپارشیمی این اطمینان را به کاربران خود می دهد تا هر زمان نیاز
+                  به راهنمایی و ارتباط داشتند بتوانند با پشتیبان ها ارتباط
+                  برقرار کنند
+                </p>
+              </div>
+              <div class="ch-date-blog">
+                <p>1399/8/7</p>
+                <a class="ch-link-more-blog" href="#">ادامه مطلب</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container-fluid ch-container-form-map">
+        <div class="row justify-content-center pb-5">
+          <div class="col-12 col-md-6 ch-column-form">
+            <div class="ch-customer-club">
+              <h4 class="ch-header-customer-club">باشگاه مشتریان</h4>
+              <p class="ch-description-customer-club">
+                برای ارتباط با ما و اطلاع از جدیدترین اطلاعات شماره همراه خود را
+                وارد کنید
+              </p>
+            </div>
+            <form action="">
+              <div class="ch-customer-club-form">
+                <div class="ch-customer-club-name-and-phone">
+                  <input
+                    class="ch-customer-club-name"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="نام"
+                  />
+                  <input
+                    class="ch-customer-club-phone"
+                    type="text"
+                    placeholder="تلفن"
+                  />
+                </div>
+                <div class="ch-customer-club-title">
+                  <input type="text" placeholder="موضوع" />
+                </div>
+                <div class="ch-customer-club-content">
+                  <textarea
+                    name=""
+                    id=""
+                    cols="30"
+                    rows="3"
+                    placeholder="توضیحات"
+                  ></textarea>
+                </div>
+                <div class="ch-customer-club-button">
+                  <input type="submit" value="ارسال" />
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-6 ch-column-map">
+            <div class="ch-map" id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container ch-container-box ch-container-blog">
+        <div class="row pt-5">
+          <div class="col-12 ch-title-box">
+            <h2>درباره ما</h2>
+            <p>توضیحات مربوط به ما</p>
+          </div>
+        </div>
+        <div class="row justify-content-center pb-5"></div>
+      </div>
+    </section>
+    <footer>
+      <div class="container-fluid">
+        <div class="row footer-row">
+          <div class="col-12 ch-column-in-footer">
+            <div class="ch-address-and-contact-information">
+              <div class="ch-contact-information">
+                <p>تلفن :</p>
+                <a href="09123079417">09123079417</a>
+              </div>
+              <div class="ch-contact-information">
+                <p>ایمیل :</p>
+                <a href="basparshimi@gmail.com">basparshimi@gmail.com</a>
+              </div>
+              <div class="ch-contact-information">
+                <p>آدرس :</p>
+                <p>شهرستان، شهرک صنعتی شهید مصلحیان</p>
+              </div>
+            </div>
+            <div class="ch-social-media-list">
+              <div class="ch-social-media">
+                <a class="ch-whatsapp-social" href="#">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+              <div class="ch-social-media">
+                <a class="ch-telegram-social" href="#">
+                  <i class="fab fa-telegram-plane"></i>
+                </a>
+              </div>
+              <div class="ch-social-media">
+                <a class="ch-instagram-social" href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
